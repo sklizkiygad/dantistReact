@@ -1,0 +1,57 @@
+.doctors-handler  {
+    padding:0;
+    margin: 0;
+}
+.doctors-handler li{
+    list-style-type: none;
+    padding: 14px 5px;
+    border-bottom: 1px solid #D1D7E2;
+    position: relative;
+    cursor: pointer;
+}
+
+.doctors-handler li:hover > .doctors-handler__doc-list{
+    display:flex;
+}
+.doctors-handler__doc-list{
+    display: none;
+}
+
+.doctors-handler__doc-list__item{
+    display: flex;
+    padding: 18px 100px 18px 18px;
+    background: #F1F1F1;
+    align-items: center;
+    max-width: 460px;
+    gap:25px;
+}
+
+.doctors-handler__doc-list__item{
+    display: flex;
+    padding: 18px 100px 18px 18px;
+    background: #F1F1F1;
+    align-items: center;
+    max-width: 460px;
+    gap:25px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    position: absolute;
+    top:50px;
+    left: 0;
+}
+
+.doctors-handler__doc-list__item__info__name{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.doctors-handler__doc-list__item__info__post{
+    font-weight: 400;
+    font-size: 14px;
+    color: #758099;
+    margin: 0;
+    max-width: 150px;
+}

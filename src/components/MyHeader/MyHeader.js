@@ -1,10 +1,10 @@
 import React from 'react';
+import leftArrow from '../../assets/images/left-arrow.png'
+import { Link} from "react-router-dom";
+import './MyHeader.css';
 
-import leftArrow from '../assets/images/left-arrow.png'
-import {BrowserRouter, Link} from "react-router-dom";
 
-
-const MyHeader = () => {
+const MyHeader = (props) => {
     return (
         <header>
             <div className="head-breadcrumbs">
@@ -15,7 +15,7 @@ const MyHeader = () => {
                     <Link to='/'>Личный кабинет</Link>
 
                 </div>
-                <h3>Восстановление пароля</h3>
+                <h3>{props.headText}</h3>
             </div>
             <div>
                 <Link to='/'>Вернуться на главную <img src={leftArrow} alt="l"/></Link>

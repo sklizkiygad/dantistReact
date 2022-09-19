@@ -1,0 +1,18 @@
+.section-navbar{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.section-navbar a{
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.active{
+    color: #F7941C !important;
+}
+
+

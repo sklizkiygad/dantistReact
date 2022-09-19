@@ -1,0 +1,24 @@
+.doctors-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D1D7E2;
+}
+
+.doctors-list p,
+.doctors-list label{
+    font-weight: 400;
+    font-size: 17px;
+    color: #758099;
+}
+
+.doctors-list select{
+    border:none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #758099;
+    outline: none;
+}
+
+
+

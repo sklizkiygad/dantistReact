@@ -1,0 +1,15 @@
+.feedback-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-cabinet__main-block{
+
+}
+
+
+.personal-cabinet__main-block h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+}
