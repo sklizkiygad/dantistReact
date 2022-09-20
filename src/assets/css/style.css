@@ -5,3 +5,242 @@
 section{
     padding: 21px 20%;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+section > h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin: 8px 0;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+
+}
+
+.form-section__input-block{
+    width: 100%;
+
+}
+
+.form-section__input-block input{
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+
+
+}
+
+
+.form-section__input-block label{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.form-section__input-block__pass{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.form-section__input-block__pass input{
+    border: none;
+    flex:1;
+    outline: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-button{
+    background: linear-gradient(178.4deg, #FDCC47 1.36%, #FF8520 121.84%);
+    border-radius: 100px;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 260px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 8px 0;
+    border: none;
+}
+
+.red-button{
+    background: #E00944 !important;
+}
+
+.gray-button{
+    background: #959595 !important;
+}
+
+.none-button{
+    border: 1px solid #758099 !important;
+    background: rgba(0,0,0,0) !important;
+    color: black !important;
+}
+
+.form-section__button-block__change__advice{
+    font-weight: 400;
+    font-size: 16px;
+    color: #464F56;
+    margin: 8px 0;
+    text-decoration: none;
+}
+
+.red-advice{
+    color: #E00944 !important;
+}
+
+.form-section__input-block-birth{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-section__input-block-birth__inputs{
+    display: flex;
+    gap: 30px;
+}
+.form-section__input-block-birth__inputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-section__input-block-birth__inputs div label{
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #000000;
+}
+
+.form-section__input-block-birth__inputs div input{
+   max-width: 50px;
+    border: 2px solid #C4C4C4;
+    text-align: center;
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+}
+
+.form-section__input-block-birth__inputs__year{
+    max-width: 72px;
+}
+
+.form-section__input-block-birth label{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.form-section__button-block__change__tk{
+    font-weight: 400;
+    font-size: 12px;
+    color: #2D2D2D;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.form-section__profile-img{
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+}
+
+
+.form-section__profile-img img{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.form-section__profile-img button{
+    max-width: 210px;
+}
+
+.form-section__profile-form{
+    display: flex;
+    gap: 30px;
+
+}
+
+.form-section__profile-form__inputs{
+    display: flex;
+    gap:30px;
+}
+
+.feedback-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-cabinet{
+    display: flex;
+    gap: 40px;
+}
+
+.personal-cabinet__main-block{
+    flex:1;
+}
+
+.personal-cabinet__main-block >h3{
+    font-weight: 700;
+    font-size: 32px;
+    max-width: 600px;
+
+    color: #000000;
+
+}
+
+
+.reception-calendar__calendar__weekday {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reception-calendar__calendar__weekday p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #758099;
+    margin: 8px 0;
+}
+
+.reception-calendar{
+    display: flex;
+    flex-direction: column;
+}
+.reception-calendar__select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reception-calendar__select__post p:first-child{
+    font-weight: 400;
+    font-size: 14px;
+    color: #758099;
+}
+
+.service-select {
+    border: none;
+    outline: none;
+}
+
+
+

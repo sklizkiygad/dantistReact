@@ -1,19 +1,16 @@
 import React from 'react';
-import './RegPage.css';
 import MyHeader from "../../components/MyHeader/MyHeader";
-import InputForm from "../../components/InputForm/InputForm";
 import MyFooter from "../../components/MyFooter/MyFooter";
+import RegistrationForm from "../../components/RegistrationForm/RegistrationForm";
 
-const RegPage = () => {
+const RegistrationPage = () => {
     return (
         <div>
             <MyHeader headText="Регистрация"/>
-            <section>
-                <InputForm pageType={'reg'}/>
-            </section>
+            <RegistrationForm/>
             <MyFooter/>
         </div>
     );
 };
 
-export default RegPage;
+export default RegistrationPage;
