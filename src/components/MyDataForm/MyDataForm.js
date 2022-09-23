@@ -52,7 +52,7 @@ const MyDataForm = () => {
                             </div>
                         </div>
 
-                        <button className="main-button">Сохранить изменения</button>
+
                     </div>
 
                     <div>
@@ -71,8 +71,13 @@ const MyDataForm = () => {
                         </div>
 
                     </div>
+
                 </div>
+
             </div>
+
+            <button className="main-button my-data-button">Сохранить изменения</button>
+
 
 
 

@@ -4,6 +4,7 @@ import SectionNavbar from "../../components/SectionNavbar/SectionNavbar";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import MyFooter from "../../components/MyFooter/MyFooter";
 import 'react-calendar/dist/Calendar.css';
+import CalendarComponent from "../../components/CalendarComponent";
 
 
 const ReceptionPage = () => {
@@ -20,7 +21,7 @@ const ReceptionPage = () => {
 
             <section className="personal-cabinet">
 
-                <div className="personal-cabinet__main-block">
+                <div className="personal-cabinet__main-block reception">
                     <SectionNavbar/>
                     <div className="reception-calendar">
                         <h3>Дегтярева Юлия Викторовна</h3>
@@ -41,28 +42,7 @@ const ReceptionPage = () => {
 
                         </div>
 
-                        <div className="reception-calendar__calendar">
-                           <div className="reception-calendar__calendar__weekday">
-                               <p>Понедельник</p>
-                               <p>Вторник</p>
-                               <p>Среда</p>
-                               <p>Четверг</p>
-                               <p>Пятница</p>
-                               <p>Суббота</p>
-                               <p>Воскресенье</p>
-
-                           </div>
-
-                            <div className="reception-calendar__calendar__days">
-                                <div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
+                    <CalendarComponent/>
                     </div>
 
 

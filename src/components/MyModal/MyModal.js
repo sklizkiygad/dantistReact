@@ -1,6 +1,5 @@
 import React from 'react';
-import './MyModal.css';
-import MyButton from "../MyButton/MyButton";
+
 
 const MyModal = () => {
     return (
@@ -15,8 +14,9 @@ const MyModal = () => {
 
                 <h1>Вы хотите отменить запись к стоматологу?</h1>
                 <div className="modal-content__buttons">
-                    <MyButton buttonText="Отменить запись"/>
-                    <MyButton buttonText="Отмена" addStyle="gray-color"/>
+
+                    <button className="main-button">Отменить</button>
+                    <button className="main-button">Отмена</button>
                 </div>
 
 

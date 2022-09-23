@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import eyeImg from "../../assets/images/eye.png";
 import vkImg from "../../assets/images/vk.png";
 import instaImg from "../../assets/images/insta.png";
-import './MyFooter.css';
 
 
 const MyFooter = () => {

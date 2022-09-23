@@ -1,7 +1,6 @@
 import React from 'react';
 import MyHeader from "../../components/MyHeader/MyHeader";
 import SectionNavbar from "../../components/SectionNavbar/SectionNavbar";
-
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import MyFooter from "../../components/MyFooter/MyFooter";
 

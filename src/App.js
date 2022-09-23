@@ -1,8 +1,10 @@
 import React from "react";
 
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import LoginPage from "./pages/LoginPage/LoginPage";
-import './assets/css/style.css'
+
+import './assets/css/style.css';
+import './assets/css/media.css';
+
 import {routes} from "./router";
 
 

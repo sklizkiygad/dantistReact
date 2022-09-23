@@ -13,7 +13,7 @@ const ReceptionPage = () => {
 
             <section className="personal-cabinet">
 
-                <div className="personal-cabinet__main-block">
+                <div className="personal-cabinet__main-block reception">
                     <SectionNavbar/>
                     <DoctorsList/>
 

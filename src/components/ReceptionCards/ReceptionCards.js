@@ -1,6 +1,5 @@
 import React from 'react';
-import './ReceptionCards.css';
-import MyButton from "../MyButton/MyButton";
+
 
 
 const ReceptionCards = () => {
@@ -51,9 +50,7 @@ const ReceptionCards = () => {
 
                     </div>
                     <div className="reception-cards__holder__card__button">
-
-                        <MyButton buttonText="Отменить запись"/>
-
+                        <button className="main-button">Отменить запись</button>
                     </div>
                 </div>
 
@@ -77,9 +74,7 @@ const ReceptionCards = () => {
 
                     </div>
                     <div className="reception-cards__holder__card__button">
-                        <MyButton buttonText="Запись просрочена" addStyle="red-color"/>
-
-
+                        <button className="main-button red-button">Запись просрочена</button>
                         <p>*Запись просрочена по причине опоздания пациента</p>
 
                     </div>
@@ -107,9 +102,7 @@ const ReceptionCards = () => {
 
                     </div>
                     <div className="reception-cards__holder__card__button">
-                        <MyButton buttonText="Запись отменена" addStyle="gray-color"/>
-
-
+                        <button className="main-button gray-button">Запись отменена</button>
                     </div>
 
                 </div>
@@ -135,9 +128,7 @@ const ReceptionCards = () => {
 
                     </div>
                     <div className="reception-cards__holder__card__button">
-                        <MyButton buttonText="Запись пройдена" addStyle="gray-color" />
-
-
+                        <button className="main-button gray-button">Запись пройдена</button>
                     </div>
 
                 </div>

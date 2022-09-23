@@ -1,8 +1,6 @@
 import React from 'react';
 import profileImg from "../../assets/images/profileimg.png";
-import './ProfileCard.css';
-import InputFormButton from "../InputFormButton/InputFormButton";
-import MyButton from "../MyButton/MyButton";
+
 
 const ProfileCard = () => {
     return (
@@ -21,8 +19,8 @@ const ProfileCard = () => {
 
 
             <div  className="form-section__button-block__profile">
-                <MyButton buttonText="Редактировать профиль"/>
-                <MyButton buttonText="Выйти" addStyle="none-color"/>
+                <button className="main-button">Редактировать профиль </button>
+                <button className="main-button none-button">Выйти</button>
             </div>
 
             
