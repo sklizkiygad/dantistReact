@@ -528,6 +528,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex: 1;
+    z-index: 500;
 }
 
 .section-navbar a{
@@ -721,9 +722,7 @@ footer{
     background: #959595 !important;
 }
 
-.section-navbar__cancel{
-    display: none;
-}
+
 
 
 
@@ -731,15 +730,14 @@ footer{
 .hamburger{
     position: relative;
     display: none;
+    z-index: 501;
 }
 .hamburger-checkbox {
     position: absolute;
     display: block;
     height: 32px;
     width: 32px;
-    /*top: 20px;*/
-    /*left: 20px;*/
-    z-index: 5;
+    z-index: 500;
     opacity: 0;
     cursor: pointer;
 }

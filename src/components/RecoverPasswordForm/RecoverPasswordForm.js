@@ -38,17 +38,6 @@ const RecoverPasswordForm = ({setFunction}) => {
                 <button className="main-button" >Отправить код</button>
                 <Link to="" className="form-section__button-block__change__reg">Зарегистрироваться</Link>
             </form>
-
-            {/*<form className="form-section">*/}
-            {/*    <p className="form-section__button-block__change__advice">Введите код для восстановления пароля</p>*/}
-            {/*    <div className="form-section__input-block">*/}
-            {/*        <label>Код подтверждения</label>*/}
-            {/*        <input type="number" placeholder="Телефон"/>*/}
-            {/*    </div>*/}
-            {/*    <button className="main-button">Отправить код</button>*/}
-            {/*    <Link to="" className="form-section__button-block__change__reg">Зарегистрироваться</Link>*/}
-            {/*</form>*/}
-
         </section>
     );
 };
