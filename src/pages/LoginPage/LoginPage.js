@@ -5,11 +5,13 @@ import LoginForm from "../../components/LoginForm/LoginForm";
 
 
 const LoginPage = () => {
+
+
+
     return (
         <div>
             <MyHeader headText="Вход в личный кабинет"/>
             <LoginForm/>
-
             <MyFooter/>
             
         </div>

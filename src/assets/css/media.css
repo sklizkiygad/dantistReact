@@ -137,6 +137,10 @@
         display: none;
     }
 
+    .reception-cards__selectors{
+     flex-direction: column;
+    }
+
 
 }
 

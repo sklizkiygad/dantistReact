@@ -380,7 +380,13 @@ header a{
 
 
 }
-
+.form-section__button-block__change__reg{
+    font-weight: 400;
+    font-size: 18px;
+    color: #2E20CD;
+    text-decoration: none;
+    margin: 8px 0;
+}
 .color-picker-block{
     height: 15px;
     width: 40px;

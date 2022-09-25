@@ -15,8 +15,6 @@ const PersonalCabinetMyDataPage = () => {
                 <div className="personal-cabinet__main-block">
                     <SectionNavbar/>
                     <MyDataForm/>
-
-
                 </div>
 
                 <ProfileCard/>

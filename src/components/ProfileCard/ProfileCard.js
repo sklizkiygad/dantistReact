@@ -1,8 +1,15 @@
 import React from 'react';
 import profileImg from "../../assets/images/profileimg.png";
+import {useNavigate} from "react-router";
 
 
 const ProfileCard = () => {
+    const navigate = useNavigate()
+
+    const onLogoutButtonClick = (e) => {
+        alert("you logout");
+    }
+
     return (
         <div className="profile-card">
             <h3>Вы авторизованы</h3>
@@ -19,8 +26,8 @@ const ProfileCard = () => {
 
 
             <div  className="form-section__button-block__profile">
-                <button className="main-button">Редактировать профиль </button>
-                <button className="main-button none-button">Выйти</button>
+                <button className="main-button" onClick={()=>navigate('/my-data')}>Редактировать профиль </button>
+                <button className="main-button none-button" onClick={onLogoutButtonClick}>Выйти</button>
             </div>
 
             

@@ -4,7 +4,7 @@ import SectionNavbar from "../../components/SectionNavbar/SectionNavbar";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import MyFooter from "../../components/MyFooter/MyFooter";
 import 'react-calendar/dist/Calendar.css';
-import CalendarComponent from "../../components/CalendarComponent";
+import CalendarComponent from "../../components/CalendarComponent/CalendarComponent";
 
 
 const ReceptionPage = () => {
