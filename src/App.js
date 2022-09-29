@@ -1,37 +1,28 @@
-import React from "react";
+import React, { useEffect } from 'react'
 
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom'
 
-import './assets/css/style.css';
-import './assets/css/media.css';
+import './assets/css/style.css'
+import './assets/css/media.css'
 
-import {routes} from "./router";
-
-
-
+import AppRoutes from './router'
+import { useSelector } from 'react-redux'
 
 function App() {
-  return (
+	const { isAuthorization, token } = useSelector((state) => state.auth)
 
-        <BrowserRouter>
-            <Routes>
-                {routes.map((route,index)=>
-                    <Route key={index}
-                           path={route.path}
-                           element={route.element}
-                           exact={route.exact}
-                    />
-                )}
+	useEffect(() => {
+		sessionStorage.setItem(
+			'auth',
+			JSON.stringify({ isAuthorization, token }),
+		)
+	}, [isAuthorization, token])
 
-
-            </Routes>
-
-        </BrowserRouter>
-
-
-
-
-  );
+	return (
+		<BrowserRouter>
+			<AppRoutes />
+		</BrowserRouter>
+	)
 }
 
-export default App;
+export default App
