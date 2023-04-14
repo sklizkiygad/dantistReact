@@ -14,7 +14,7 @@ import {routes} from "./router";
 function App() {
   return (
 
-        <BrowserRouter>
+
             <Routes>
                 {routes.map((route,index)=>
                     <Route key={index}
@@ -28,7 +28,7 @@ function App() {
 
             </Routes>
 
-        </BrowserRouter>
+
 
 
 
