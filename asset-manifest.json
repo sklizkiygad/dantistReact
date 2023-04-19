@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dantistReact/static/css/main.04ecc34f.css",
-    "main.js": "/dantistReact/static/js/main.37ce5993.js",
-    "index.html": "/dantistReact/index.html",
-    "main.04ecc34f.css.map": "/dantistReact/static/css/main.04ecc34f.css.map",
-    "main.37ce5993.js.map": "/dantistReact/static/js/main.37ce5993.js.map"
+    "main.css": "/static/css/main.391bbb82.css",
+    "main.js": "/static/js/main.4faea98a.js",
+    "index.html": "/index.html",
+    "main.391bbb82.css.map": "/static/css/main.391bbb82.css.map",
+    "main.4faea98a.js.map": "/static/js/main.4faea98a.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ecc34f.css",
-    "static/js/main.37ce5993.js"
+    "static/css/main.391bbb82.css",
+    "static/js/main.4faea98a.js"
   ]
 }
