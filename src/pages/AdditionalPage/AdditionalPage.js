@@ -1,23 +1,33 @@
 import React from 'react';
-
 import {Link} from "react-router-dom";
-
+import MyHeader from "../../components/MyHeader/MyHeader";
+import MyFooter from "../../components/MyFooter/MyFooter";
+import './AdditionalPage.css';
 const AdditionalPage = () => {
     return (
-        <div>
-            <ul>
+        <div className="additional-page">
 
-                <li><Link to={'/registration'}>https://sklizkiygad.github.io/dantistReact/registration</Link></li>
-                <li><Link to={'/recover-password'}>https://sklizkiygad.github.io/dantistReact/recover-password</Link></li>
-                <li><Link to={'/personal-cabinet'}>https://sklizkiygad.github.io/dantistReact/personal-cabinet</Link></li>
-                <li><Link to={'/my-data'}>https://sklizkiygad.github.io/dantistReact/my-data</Link></li>
-                <li><Link to={'/feedback'}>https://sklizkiygad.github.io/dantistReact/feedback</Link></li>
-                <li><Link to={'/reception'}>https://sklizkiygad.github.io/dantistReact/reception</Link></li>
-                <li><Link to={'/reception-calendar'}>https://sklizkiygad.github.io/dantistReact/reception-calendar</Link></li>
-                <li> <Link to={'/reception-hour'}>https://sklizkiygad.github.io/dantistReact/reception-hour</Link></li>
-                <li><Link to={'/reception-make'}>https://sklizkiygad.github.io/dantistReact/reception-make</Link></li>
+            <MyHeader headText={'Личный кабинет'}/>
+            <section>
+
+            <h3>Навигация по личному кабинету</h3>
+
+            <ul className="navigation-list">
+                <li><Link to={'/registration'}>Регистрация</Link></li>
+                <li><Link to={'/recover-password'}>Восстановить пароль</Link></li>
+                <li><Link to={'/personal-cabinet'}>Личный кабинет</Link></li>
+                <li><Link to={'/my-data'}>Мои данные</Link></li>
+                <li><Link to={'/feedback'}>Оставить отзыв</Link></li>
+                <li><Link to={'/reception'}>Записаться</Link></li>
+                <li><Link to={'/reception-calendar'}>Календарь записей</Link></li>
+                <li> <Link to={'/reception-hour'}>Часы приема</Link></li>
+                <li><Link to={'/reception-make'}>Создать запись</Link></li>
             </ul>
+
+            <MyFooter/>
+            </section>
         </div>
+
     );
 };
 
